@@ -1,0 +1,108 @@
+//MELLIM BUTTONUU NIYE IF.LE YAZMALI OLDUGUMUZU BASA DUSMEDIM SADE USULLA YAZDIM
+
+.btn {
+    @extend .px-4;
+    @extend .py-2;
+    text-decoration: none;
+    // color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    outline: none;
+    font-size: inherit !important;
+    // background-color: #282828; //bunlarin rengini deyisen kimi getire bilmedim
+    color: #f8f9fa;
+    transition: all .5s;
+
+    // &:hover {
+    //     background: map-get($colors, primary);
+    // }
+
+}
+
+
+
+
+// Button sizes
+@each $key,
+$value in $button-sizes {
+    .btn-size-#{$key} {
+        font-size: $value;
+    }
+}
+
+// Button with borders
+@each $key,
+$value in $button-borders {
+    .btn-border-#{$key} {
+        @include border(solid,
+            $value,
+            map-get($colors, primary));
+    }
+}
+
+
+// Button with radius
+
+@each $key,
+$value in $button-radius {
+    .btn-radius-#{$key} {
+        border-radius: $value;
+    }
+}
+
+
+
+
+//Button-colors
+
+@each $key,
+$value in $colors {
+
+    .btn-bg-#{$key} {
+        background: map-get($colors, $key);
+        transition: all 0.3s ease-in-out;
+
+
+        &:hover {
+            @if $key =="light-gray" {
+                color: #f8f9fa;
+                background-color:#282828;
+
+            }
+
+            @else if $key =="transparent" {
+                background-color: #1ab9a7;
+                color: #f8f9fa;
+
+
+            }
+            @else if $key =="black" {
+                background-color: map-get($colors,'primary');
+                color: #f8f9fa;
+
+
+            }
+
+
+
+        }
+    }
+}
+
+
+
+
+//Button-text color
+
+@each $key,
+$value in $colors {
+
+    .btn-text-#{$key} {
+        color: map-get($colors, $key);
+
+        transition: all 0.3s ease-in-out;
+
+
+    }
+}

@@ -1,0 +1,132 @@
+$grid-columns: 12;
+$widths: 0%, 25%, 50%, 75%, 100%;
+$breakpoints: (
+    xs:0px,
+    sm:576px,
+    md:768px,
+    lg:992px,
+    xl:1200px
+);
+
+$spacer: 5px;
+$spacers: (
+    0:($spacer * 0),
+    1:($spacer * 1),
+    2:($spacer * 2),
+    3:($spacer * 3),
+    4:($spacer * 4),
+    5:($spacer * 5),
+    6:($spacer * 6),
+    7:($spacer * 7)
+);
+
+$colors: (
+    'primary':#1ab9a7,
+    'secondary':#6c757d,
+    'success':#28a745,
+    'warning':#ffc107,
+    'light':#f8f9fa,
+    'dark':#343a40,
+    'white':#fff,
+    'black':#282828,
+    'gray':#f3f3f3,
+    'light-gray': #CCCCCC,
+    'transparent': transparent
+);
+
+// Font sizes
+$font-sizes: (
+    10:10px,
+    12:12px,
+    14:14px,
+    16:16px,
+    18:18px,
+    20:20px,
+    22:22px,
+    24:24px,
+    26:26px,
+    28:28px,
+    30:30px,
+    32:32px,
+    34:34px,
+    36:36px,
+    38:38px,
+    40:40px,
+    42:42px,
+    44:44px,
+    46:46px,
+    48:48px,
+    50:50px,
+    52:52px,
+    54:54px,
+    56:56px,
+    58:58px,
+    60:60px,
+    62:62px,
+    64:64px,
+    66:66px,
+    68:68px,
+    70:70px,
+    72:72px,
+    74:74px,
+    76:76px,
+    78:78px,
+    80:80px,
+    82:82px,
+    84:84px,
+    86:86px,
+    88:88px,
+    90:90px,
+    92:92px,
+    94:94px,
+    96:96px,
+    98:98px,
+    100:100px
+);
+
+// Font weights
+$font-weights: (
+    'light':100,
+    'normal':300,
+    'bold':600,
+    'bolder':800,
+    'boldest':900,
+
+);
+
+
+//Font-familes
+.font-familiy-sans-serif {
+  font-family:"Open Sans",Arial,sans-serif
+
+};
+
+.font-family-raleway{
+    font-family: "Raleway", sans-serif;
+};
+.font-family-times{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+// Button sizes
+$button-sizes: (
+    'sm':0.75rem,
+    'md':1rem,
+    'lg':1.25rem
+);
+
+// Button with borders
+$button-borders: (
+    'sm':0.125rem,
+    'md':0.25rem,
+    'lg':0.5rem
+);
+
+
+// Button with radius
+$button-radius: (
+    'sm':0.125rem,
+    'md':0.25rem,
+    'lg':0.5rem
+);

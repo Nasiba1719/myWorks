@@ -1,0 +1,55 @@
+.text-input {
+    color: map-get($colors, 'black');
+    @extend .font-weight-bold;
+}
+
+
+.form-element {
+    @extend .px-4;
+    @extend .py-2;
+}
+
+.input-control {
+    width: 200% !important;
+    border: 1px solid map-get($colors, gray);
+    background: map-get($colors, light);
+    color: #999;
+    height: 30px;
+    @extend .font-size-16;
+    @extend .font-weight-normal;
+    @extend .mb-3;
+    padding: 6px 12px;
+
+}
+
+.input-incrementer {
+    width: 20% !important;
+
+}
+
+.input-age {
+    width: 32% !important;
+}
+
+.input-plus {
+    background: url(http://www.ansonika.com/annova/img/plus.png) center center no-repeat #fff;
+    left: 61px;
+    top: 0;
+    text-indent: -9999px;
+
+}
+
+.input-minus {
+    background: url(http://www.ansonika.com/annova/img/minus.png) center center no-repeat #fff;
+    left: 61px;
+    top: 21px;
+    text-indent: -9999px;
+}
+
+.plus-minus {
+    position: absolute;
+    width: 35px;
+    height: 23px;
+    border: 2px solid #d5d5d5;
+
+}

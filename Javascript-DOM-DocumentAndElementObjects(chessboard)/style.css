@@ -1,0 +1,14 @@
+.template{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+.box{
+    border:1px solid gray;
+}
+.white{
+    background:white;
+}
+.black{
+    background:black;
+}

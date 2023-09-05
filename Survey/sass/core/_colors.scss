@@ -1,0 +1,13 @@
+// Generate all color classes for background and text colors
+
+@each $colorName, $value in $colors {
+    .bg-#{$colorName} {
+        background-color: $value !important;
+    }
+    .text-#{$colorName} {
+        color: $value !important;
+    }
+    .border-#{$colorName} {
+        border-color: $value !important;
+    }
+}

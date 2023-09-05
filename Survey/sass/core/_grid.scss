@@ -1,0 +1,18 @@
+.row{
+    width: 100%;
+    box-sizing: border-box;
+    @extend .flex;
+    @extend .flex-row;
+    @extend .flex-wrap;
+}
+
+
+@each $breakpoint, $value in $breakpoints{
+    @media (min-width:$value){
+        @for $i from 1 through $grid-columns{
+            .col-#{$breakpoint}-#{$i}{
+                width:calc((100% / 12)) * $i !important;
+            }
+        }
+    }
+}

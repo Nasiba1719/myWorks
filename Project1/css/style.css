@@ -1,0 +1,323 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap');
+
+ a {
+     color: inherit !important;
+
+ }
+
+
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: 'Rubik', sans-serif;
+     line-height: 1.4;
+ }
+
+ img {
+     max-width: 100%;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ p {
+     line-height: 1.6;
+ }
+
+
+
+
+
+ /*HEADER*/
+ #header {
+     background-color: #20bea7;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     z-index: 99;
+     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+ }
+
+ .header-nav a {
+     font-weight: 300;
+     text-transform: uppercase;
+     padding: 40px 0px 36px;
+     line-height: 1em;
+     letter-spacing: 0.05em;
+     transition: all 0.3s ease-in-out;
+     color: #fff !important;
+ }
+
+ .header-nav a:hover {
+     color: #000;
+ }
+
+ /*END HEADER*/
+
+
+ /*MAIN AREA SECTION*/
+
+ #mainArea {
+     background: linear-gradient(rgba(46, 189, 170, 0.9), rgba(46, 189, 170, 0.9)), url(../images/main-bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     box-sizing: border-box;
+     position: relative;
+     height: 100vh;
+
+ }
+
+ .main-info p {
+     color: #fff;
+ }
+
+ .main-boxes {
+     width: 700px;
+     margin: 0 auto;
+     position: absolute;
+     bottom: 0px;
+     left: 50%;
+     transform: translate(-50%, 50%);
+
+ }
+
+ .main-info h2 {
+     display: inline;
+     background: #fff;
+     color: #20bea7;
+     font-size: 32px;
+     padding: 6px 14px;
+     font-weight: 600;
+     line-height: 1.2em;
+ }
+
+ .main-info h1 {
+     font-size: 46px;
+     color: #fff;
+     font-weight: 600;
+     line-height: 1.2em;
+     margin-bottom: 0.6em;
+     margin-top: 0.6rem;
+ }
+
+
+
+ .box-col i {
+     font-size: 30px;
+     color: #20bea7;
+     padding-bottom: 1.5rem;
+ }
+
+ .box-col span {
+     display: block;
+     text-align: center;
+     padding-top: 25px;
+
+ }
+
+ .box-col {
+     background: white;
+     width: 300px;
+ }
+
+ .box-col h3 {
+     font-size: 16px;
+     color: #263238;
+     font-weight: 600;
+     margin: 10px 0 14px;
+     text-align: center;
+ }
+
+
+ .box-col p {
+     text-align: center;
+     padding: 10px 20px 20px 20px;
+     font-size: 13px;
+     color: #546E7A;
+ }
+
+ /*END MAIN AREA SECTION*/
+
+
+
+ /* FEATURED SECTION */
+ .featured-content-text {
+     width: 80%;
+ }
+
+ .featured-content-icon {
+     width: 20%;
+
+ }
+
+ .featured-content-icon i {
+     color: #20bea7;
+ }
+
+
+ .featured-content-icon span {
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     border: 1px solid #20bea7;
+ }
+
+
+ /*ABOUT SECTION*/
+
+ #about {
+     border-bottom: 1px dashed #e2e2e2;
+ }
+
+
+ .about-title h4 {
+     color: #546E7A;
+     font-size: 13px;
+     padding-bottom: 8px;
+     margin-bottom: 1em;
+     font-weight: 400;
+     text-transform: uppercase;
+     letter-spacing: 0.1em;
+     position: relative;
+ }
+
+ .about-title h4::after {
+     content: '';
+     display: block;
+     width: 30px;
+     height: 1px;
+     background: #20bea7;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+ }
+
+ .about-top {
+     padding-bottom: 50px;
+ }
+
+ .about-title {
+     width: 600px;
+     height: 300px;
+ }
+
+ .about-title p {
+     padding-top: 1rem;
+ }
+
+ /*FACTS SECTION*/
+ #facts {
+     background: linear-gradient(rgba(46, 189, 170, 0.9), rgba(46, 189, 170, 0.9)), url(../images/facts-bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     box-sizing: border-box;
+     color: #fff;
+ }
+
+ .facts-item h1 {
+     font-size: 52px;
+     font-weight: 500;
+     letter-spacing: 0.04em;
+     margin-bottom: 14px;
+     position: relative;
+     padding-bottom: 8px;
+ }
+
+ .facts-item h1::after {
+     content: '';
+     display: block;
+     width: 30px;
+     height: 1px;
+     background: #fff;
+     position: absolute;
+     bottom: 0;
+     left: 50%;
+     margin-left: -15px;
+ }
+
+ /*END FACTS SECTION*/
+
+
+
+ /* Awsome Products */
+
+ #aw-products {
+
+     background-image: url(https://demo.awaikenthemes.com/html-preview/ulaunch/1-watch-template/images/pricing-bg.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .product-item {
+     height: 350px;
+     box-shadow: 0px 0px 10px black;
+ }
+.product-box{
+    
+}
+ .front {
+     position: relative;
+ }
+
+
+ .back {
+     height: 350px;
+     visibility: hidden;
+ }
+
+
+ /*PRICING-PLAN SECTION*/
+ .plan-ul {
+     line-height: 2.5;
+ }
+
+ .plan-content:hover {
+     background-color: #f2f2f3;
+ }
+
+ /*END PRICING-PLAN*/
+
+
+
+ /*GET-IT SECTION*/
+ #get-it {
+     background: linear-gradient(rgba(46, 189, 170, 0.9), rgba(46, 189, 170, 0.9)), url(https://demo.awaikenthemes.com/html-preview/ulaunch/1-watch-template/images/header-bg.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     box-sizing: border-box;
+     color: #fff;
+
+ }
+
+ .get-it-title h4 {
+     font-size: 13px;
+     padding-bottom: 8px;
+     margin-bottom: 1em;
+     font-weight: 400;
+     text-transform: uppercase;
+     letter-spacing: 0.1em;
+     position: relative;
+  
+     
+ }
+
+ .get-it-title h4::after {
+     content: '';
+     display: block;
+     width: 30px;
+     height: 1px;
+     background: #fff;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+ }
+
+ /*END GET-IT SECTION*/

@@ -1,0 +1,21 @@
+@mixin flex($direction:row, $align:center, $justify:center, $wrap:wrap) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+}
+
+// Positioning
+
+@mixin position($type,$top:0, $right:0, $bottom:0, $left:0) {
+    position: $type;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+}
+
+@mixin border($type, $width:1px, $color:#000) {
+    border: $width $type $color;
+}

@@ -1,0 +1,236 @@
+/*#div1{
+    height: 200px;
+    width: 100%;
+    background-color: aquamarine;
+}
+#div2{
+    height: 80px;
+    width: 100%;
+    background-color: blueviolet;
+}
+#div3 {
+    height: 80px;
+    width: 100%;
+    background-color: blue;
+}
+#div4 {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}*/
+
+
+/*U Y G U L A M A L A R-
+/* =BUTONLARAA BASANDA BIR BIR ARTIRIB AZALDIR
+#artir{
+background-color: green;
+color: white;
+width: 35px;
+height: 30px;
+border: none;
+font-size: 25px;
+}
+
+#azalt{
+    background-color: green;
+    color: white;
+    width: 35px;
+    height: 30px;
+    border: none;
+    font-size: 25px;
+    } */
+
+    
+    
+    /*KICIK QUTUNUN ICINDE REYLER VE ADAM ADLARI 2 SANIYEDEN BIR DEYISIR
+#div1{
+
+    width: 10%;
+    height: 150px;
+    position: relative;
+    top:100px;
+    left:25%;
+}
+
+#div2{
+
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    color: #fff;
+}
+
+#div3{
+
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+} */
+
+
+
+
+/*Saat UYGULAMASI
+
+#div1{
+    width: 40%;
+    height: auto;
+    display: flex;
+   position: relative;
+   left: 450px;
+   top: 150px;
+}
+#saat{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin-left: 4px;
+    font-size: 128px;
+    text-align: center;
+}
+#dakika{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin-left: 4px;
+    font-size: 128px;
+    text-align: center;
+}
+#saniye{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin-left: 4px;
+    font-size: 128px;
+    text-align: center;
+}
+
+body{
+    background-color: green;
+} */
+
+/*GERI SAYIM UYGULAMASI*/
+
+/*#div1{
+    width: 40%;
+    height: auto;
+    display: flex;
+   position: relative;
+   left: 450px;
+   top: 150px;
+}
+#saat{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin-left: 4px;
+    font-size: 128px;
+    text-align: center;
+}
+#dakika{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin-left: 4px;
+    font-size: 128px;
+    text-align: center;
+}
+#saniye{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    margin-left: 4px;
+    font-size: 128px;
+    text-align: center;
+}
+
+body{
+    background-color: green;} */
+
+
+    
+/*LOGIN PAROL UYGULAMASI-->
+
+
+#div1{
+
+    width: 30%;
+    height: 200px;
+    background-color: lightgrey;
+    position: absolute;
+    border-radius: 10px;
+    left:35%;
+    top:25%;
+}
+#kullaniciAdi{
+    width: 150px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#parola{
+    width: 150px;
+    height: 30px;
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+#btn{
+width: 200px;
+height: 30px;
+margin-left: 150px;
+margin-top: 10px;
+} */
+
+
+/* HARF NOTU */
+
+
+#div1{
+
+    width: 30%;
+    height: auto;
+    background-color: lightgrey;
+    position: absolute;
+    border-radius: 10px;
+    left:35%;
+    top:25%;
+}
+#vize1{
+    width: 150px;
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+#vize2{
+    width: 150px;
+    height: 30px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#final{
+    width: 150px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#btn{
+width: 200px;
+height: 30px;
+margin-left: 150px;
+margin-top: 10px;
+}
+
+#div2{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin: auto;
+    display: none;
+    font-size: 32px;
+    text-align: center;
+}

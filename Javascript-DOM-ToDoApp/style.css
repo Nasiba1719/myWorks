@@ -1,0 +1,21 @@
+.container{
+    text-align: center;
+}
+.btn{
+    cursor: pointer;
+    transition: ease-in;
+    color: aliceblue;
+    background-color: darkgray;
+}
+.btn:hover{
+    background-color: cornflowerblue;
+}
+
+.add-text{
+    width: 450px;
+}
+
+.chekbox-content{
+    display: flex;
+    justify-content: center;
+}

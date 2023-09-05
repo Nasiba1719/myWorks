@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+img{
+    width:300px;
+    height:200px;
+    object-fit: cover;
+}
+    </style>
+</head>
+<body>
+    <div class="slider">
+       
+        <img src="https://th.bing.com/th/id/OIP.EN-ljOViZJt6PJbUZ44PBwHaEK?pid=ImgDet&w=800&h=450&rs=1" alt="">
+        
+    </div>
+    <button onclick="sagaDeyis()">Saga</button>
+    <button onclick="solaDeyis()">Sola</button>
+
+    <script>
+        let slideImages=[
+            'https://th.bing.com/th/id/OIP.Ozq56yR8uwp-DOg7-ayiwgHaEo?pid=ImgDet&w=1920&h=1200&rs=1',
+            'https://cdn.wallpapersafari.com/85/0/PtYG6W.jpg',
+            'https://th.bing.com/th/id/OIP.pUUeWYPIPweyTKSTXUzuDwHaC1?pid=ImgDet&w=2560&h=978&rs=1'
+        ]
+        // sekli deyismek isteyirem
+        // 1. sekli tapmaliyam
+        let sekil=document.querySelector(".slider img")
+        // 2. seklin src atributunu deyismeliyem
+        let index=0;
+        function sagaDeyis(){
+            sekil.setAttribute('src',slideImages[index])
+            if(index<slideImages.length-1){
+                index++
+            }else{
+                index=0
+            }
+        }
+
+        function solaDeyis(){
+            sekil.setAttribute('src',slideImages[index])
+            if(index>0){
+                index--
+            }else{
+                index=slideImages.length-1
+            }
+        }
+
+
+    </script>
+</body>
+</html>

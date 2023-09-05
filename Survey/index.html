@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--FONT AWSOME KIT LINK-->
+    <script src="https://kit.fontawesome.com/351310ff6a.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+
+    <!-- FIRST PAGE -->
+
+    <!-- MAIN HEADER -->
+    <header id="main-header">
+        <div class="main-header-black flex flex-row flex-justify-between p-2 flex-align-center">
+            <a href="#"><img
+                    src="https://public-assets.envato-static.com/assets/logos/envato_market-dde916a48af7413e54aa058fe7ae6856752fca799da4bec355f00aea904bfa19.svg"></a>
+            <button class="btn btn-bg-success btn-radius-md ">Buy now</button>
+        </div>
+    </header>
+    <!-- END MAIN HEADER -->
+
+
+    <!-- MAIN SECTION -->
+    <main id="main">
+        <div class="container">
+            <div class="survey">
+                <!-- SURVEY HEADER -->
+                <div class="survey-header flex flex-column flex-justify-center flex-align-center my-5 text-white ">
+                    <h1>SATISFACTION SURVEY</h1>
+                    <p>Help us to improve our service and customer satisfaction.</p>
+                </div>
+                <!-- END SURVEY HEADER -->
+
+
+                <div class="survey-content">
+                    <!-- SURVEY CONTENT-HEADER -->
+                    <div class="survey-content-header bg-gray p-5 flex flex-justify-center">
+                        <div class="survey-wizard-progress">
+                            <h5>PROGRESS</h5>
+                            <div class="survey-wizard-progress-bar"></div>
+                        </div>
+                    </div>
+                    <!-- END SURVEY CONTENT-HEADER -->
+
+
+                    <!-- FORM ACTION -->
+                    <form action="#" id="form">
+                        <!-- SURVEY CONTENT BODY -->
+                        <div class="survey-content-body flex bg-white p-5 flex-align-center">
+
+                            <!-- LEFT COLUMN -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h2>Enter your personal info</h2>
+                                    <div class="form-element text-input">
+                                        <input type="text" class="user_name input-control" placeholder="First name"
+                                            name="name" required >
+                                        <input type="text" class="input-control" placeholder="Last name" name="surname">
+                                        <input type="email" class="input-control" placeholder="Your Email" name="mail">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- RIGHT COLUMN -->
+                            <div class="row">
+                                <div class="col-md-6 pt-7">
+                                    <div class="form-element form-element-right text-input ">
+                                        <!-- SELECT OPTION -->
+                                        <div class="form-element-select">
+                                            <select name="select" class="select-box input-control">
+                                                <option>North America</option>
+                                                <option>Asia</option>
+                                                <option>Africa</option>
+                                            </select>
+                                            <div class="form-element-select-icon">
+                                                <i class="fa-solid fa-caret-down"></i>
+                                            </div>
+                                        </div>
+                                        <!-- END SELECT OPTION -->
+
+
+                                        <!-- INCREMENTER INPUT -->
+                                        <div class="form-element-input">
+                                            <div class="form-element-input-buttons">
+                                                <input type="button" value="+" name="incrementer"
+                                                    class="input-plus plus-minus mr-4">
+                                                <input type="text" placeholder="none" name="incrementer"
+                                                    class="input-incrementer input-control mr-4">
+                                                <input type="button" value="-" name="incrementer"
+                                                    class="input-minus plus-minus mr-4">
+                                                <span>Your incrementer</span>
+                                            </div>
+
+                                        </div>
+                                        <!--END INCREMENTER INPUT -->
+
+
+                                        <!-- AGE MALE/FEMALE -->
+                                        <div class="form-element-age">
+                                            <ul class="form-element-ul flex flex-align-center ">
+                                                <li><input type="number" placeholder="Age" name="age"
+                                                        class="input-control input-age input-incrementer"></li>
+                                                <li class="form-element-male mr-6 flex flex-align-center pr-2"><input
+                                                        type="radio" name="gender" value="male"
+                                                        class="mr-2"><span>Male</span></li>
+                                                <li class="flex flex-align-center"><input type="radio" name="gender"
+                                                        value="female" class="mr-2"><span>Female</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- AGE MALE/FEMALE -->
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- END SURVEY CONTENT BODY -->
+
+
+                        <!-- SWITCH ON/OFF -->
+                        <div class="form-element-acept bg-white py-3 text-align-center">
+                            <span> <b>Do you accept</b>
+                                <b> <a href="#"> terms and conditions?</a></b>
+                            </span>
+                            <div class="form-element-switch pt-3">
+                                <input type="checkbox" name="switch-on-off">
+                            </div>
+                        </div>
+                        <!-- END SWITCH ON/OFF -->
+
+
+                        <!-- END FORM ACTION -->
+
+
+                        <!-- SURVEY-FOOTER  -->
+                        <div class="survey-content-footer bg-gray p-5 flex flex-justify-center">
+                            <div class="survey-controls">
+                                <input type="submit" value="BACKWARD" class="btn btn-bg-light-gray">
+                                <input type="submit" value="FORWARD" class="btn btn-bg-black">
+                            </div>
+                        </div>
+
+                    </form>
+                    <!-- END SURVEY-FOOTER  -->
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- END MAIN SECTION -->
+    <!-- END FIRST PAGE -->
+
+
+
+    <!-- SECOND PAGE -->
+
+
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

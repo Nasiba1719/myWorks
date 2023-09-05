@@ -1,0 +1,123 @@
+// Generate all flex classes
+.flex{
+    display: flex !important;
+}
+// Flex directions
+.flex-row {
+    flex-direction: row !important;
+}
+.flex-column {
+    flex-direction: column !important;
+}
+
+// Flex wraps
+.flex-wrap {
+    flex-wrap: wrap !important;
+}
+.flex-nowrap {
+    flex-wrap: nowrap !important;
+}
+
+// Flex justifies
+
+.flex-justify-start {
+    justify-content: flex-start !important;
+}
+.flex-justify-end {
+    justify-content: flex-end !important;
+}
+.flex-justify-center {
+    justify-content: center !important;
+}
+.flex-justify-between {
+    justify-content: space-between !important;
+}
+.flex-justify-around {
+    justify-content: space-around !important;
+}
+
+// Flex aligns
+
+.flex-align-start {
+    align-items: flex-start !important;
+}
+.flex-align-end {
+    align-items: flex-end !important;
+}
+.flex-align-center {
+    align-items: center !important;
+}
+.flex-align-baseline {
+    align-items: baseline !important;
+}
+.flex-align-stretch {
+    align-items: stretch !important;
+}
+
+// Flex contents
+
+.flex-content-start {
+    align-content: flex-start !important;
+}
+.flex-content-end {
+    align-content: flex-end !important;
+}
+.flex-content-center {
+    align-content: center !important;
+}
+.flex-content-between {
+    align-content: space-between !important;
+}
+.flex-content-around {
+    align-content: space-around !important;
+}
+.flex-content-stretch {
+    align-content: stretch !important;
+}
+
+// Flex self
+
+.flex-self-start {
+    align-self: flex-start !important;
+}
+
+.flex-self-end {
+    align-self: flex-end !important;
+}
+
+.flex-self-center {
+    align-self: center !important;
+}
+
+.flex-self-baseline {
+    align-self: baseline !important;
+}
+
+.flex-self-stretch {
+    align-self: stretch !important;
+}
+
+//text-align 
+.text-align-center {
+    text-align: center !important;
+}
+
+.text-align-left {
+    text-align: left !important;
+}
+
+.text-align-right {
+    text-align: right !important;
+}
+
+.text-align-start{
+    text-align: start !important;
+}
+
+.text-align-end {
+    text-align: end !important;
+}
+
+.text-align-justify {
+    text-align: justify !important;
+}

@@ -1,0 +1,11 @@
+.box{
+    width: 200px;
+    height: 200px;
+
+}
+.bg-dark{
+    background-color: #000;
+}
+.bg-light{
+    background-color: #fff;
+}
